@@ -13,7 +13,10 @@ public class CharExample {
 		
 		int uniCode = c1; 		// 유니코드 얻기
 		
-		
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(uniCode);		
 	}
 	
 }
