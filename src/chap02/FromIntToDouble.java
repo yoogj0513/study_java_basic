@@ -31,6 +31,5 @@ public class FromIntToDouble {
 		
 		int result2 = num4 - num5;
 		System.out.println(result2);
-		
 	}
 }
