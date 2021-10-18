@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2da93380-6f2e-4a03-90b6-845933b992ff" name="Changes" comment="이클립스 프로젝트 &gt; 인텔리제이 import&#10;열거타입 실습">
+    <list default="true" id="2da93380-6f2e-4a03-90b6-845933b992ff" name="Changes" comment="gitignore 인텔리제이 설정 추가">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634563217194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore 인텔리제이 설정 추가">
+      <created>1634563709130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634563709130</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gitignore 인텔리제이 설정 추가">
+      <created>1634563742631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634563742631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="이클립스 프로젝트 &gt; 인텔리제이 import&#10;열거타입 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="이클립스 프로젝트 &gt; 인텔리제이 import&#10;열거타입 실습" />
+    <MESSAGE value="gitignore 인텔리제이 설정 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 인텔리제이 설정 추가" />
   </component>
 </project>
