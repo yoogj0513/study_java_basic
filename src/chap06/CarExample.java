@@ -3,7 +3,8 @@ package chap06;
 public class CarExample {
     public static void main(String[] args) {
         //객체 생성
-        Car myCar = new Car();
+        Car myCar = new Car("검정", 3000);
+        //Car myCar = new Car(); //클래스에 생성자가 명시적으로 선언되어 기본 생성자를 호출할 수 없음
 
         //필드값 읽기
         System.out.println("제작회사 : " + myCar.company);
