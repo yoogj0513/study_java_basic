@@ -32,6 +32,34 @@ public class Car {
      * 리턴 타입이 없고, 클래스 이름과 동일
      * 블록 내부에는 객체 초기화 코드가 작성
      */
-    //생성자
+    //기본 생성자
+    Car() { }
+
+    // 생성자
     Car(String color, int cc) { }
+
+    /**
+     * 생성자 오버로딩(Overloading)
+     * 생성자가 하나뿐이라면 여러 요구 조건을 수용할 수 없음
+     * (여러 조건 예시 : Car 객체를 생성할 때 외부에서 제공하는 데이터가 없다면 기본 생성자로
+     *                외부에서 model 데이터가 제공되거나 model과 color가 제공될 경우에도 Car 객체를 생성할 수 있어야 함)
+     * 자바에서는 다양한 방법으로 객체를 생성할 수 있도록 생성자 오버로딩 제공
+     * 생성자 오버로딩 : 매개 변수를 달리하는 생성자를 여러 개 선언하는 것
+     *               매개 변수의 타입, 개수, 순서가 다르게 선언
+     */
+    Car(String model) {
+        this.model = model;
+    }
+
+    Car(String model, String color) {
+        this.model = model;
+        this.color = color;
+    }
+
+    Car(String model, String color, int maxSpeed) {
+        this.model = model;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+    }
+
 }
