@@ -16,5 +16,18 @@ public class CalculatorExample {
         myCal.powerOff();
 
         myCal.execute(); //메소드 호출
+
+        /**
+         * 메소드 오버로딩
+         */
+        //정사각형의 넓이 구하기
+        double return1 = myCal.areaRectangle(10);
+
+        //직사각형의 넓이 구하기
+        double return2 = myCal.areaRectangle(10, 20);
+
+        //결과 출력
+        System.out.println("정사각형의 넓이 : " + return1);
+        System.out.println("직사각형의 넓이 : " + return2);
     }
 }

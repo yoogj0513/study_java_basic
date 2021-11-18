@@ -58,4 +58,19 @@ public class Calculator {
         System.out.println(message);
     }
 
+    /**
+     * 메소드 오버로딩
+     * 클래스 내에 같은 이름의 메소드를 여러 개 선언하는 것
+     * 조건 : 매개 변수의 타입, 개수, 순서 중 하나가 달라야 함
+     * 필요성 : 매개값을 다양하게 받아 처리할 수 있도록 하기 위해서
+     */
+    //정사각형의 넓이
+    double areaRectangle(double width) {
+        return width * width;
+    }
+
+    //직사각형의 넓이
+    double areaRectangle(double width, double height) {
+        return width * height;
+    }
 }
