@@ -14,5 +14,7 @@ public class CalculatorExample {
         System.out.println("divide : " + divide);
 
         myCal.powerOff();
+
+        myCal.execute(); //메소드 호출
     }
 }

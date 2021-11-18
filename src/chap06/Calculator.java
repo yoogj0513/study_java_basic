@@ -40,4 +40,22 @@ public class Calculator {
         System.out.println("전원을 끕니다.");
     }
 
+    /**
+     * 클래스 내부에서 메소드 호출
+     */
+    double avg(int x, int y) {
+        double sum = plus(x, y); //메소드 호출
+        double result = sum / 2;
+        return result;
+    }
+
+    void execute() {
+        double result = avg(7, 10); //메소드 호출
+        println("실행결과 : " + result);
+    }
+
+    void println(String message) {
+        System.out.println(message);
+    }
+
 }
